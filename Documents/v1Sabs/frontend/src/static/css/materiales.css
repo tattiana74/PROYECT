@@ -1,0 +1,70 @@
+:root {
+    --sabs-orange: #FF8C00;
+    --sabs-light-orange: #FFA500;
+    --sabs-gray: #F0F0F0;
+}
+body {
+    font-family: Arial, sans-serif;
+}
+.sidebar {
+    background-color: white;
+    height: 100vh;
+    padding-top: 20px;
+}
+.sidebar .nav-link {
+    color: #333;
+    padding: 10px 15px;
+    border-radius: 0 25px 25px 0;
+    margin-bottom: 5px;
+}
+.sidebar .nav-link.active {
+    background-color: var(--sabs-orange);
+    color: white;
+}
+.sidebar .nav-link:hover:not(.active) {
+    background-color: var(--sabs-light-orange);
+    color: white;
+}
+.top-bar {
+    background-color: var(--sabs-orange);
+    color: white;
+    padding: 10px 20px;
+}
+.main-content {
+    background-color: var(--sabs-gray);
+    height: calc(100vh - 60px);
+    padding: 20px;
+}
+.sena-logo {
+    width: 100px;
+    margin-top: auto;
+    margin-bottom: 20px;
+}
+.sidebar .nav-item.submenu {
+    padding-left: 20px;
+}
+.sidebar .nav-item.submenu .nav-link {
+    padding-left: 30px;
+}
+.btn-registrar {
+    background-color: var(--sabs-light-orange);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+.btn-registrar:hover {
+    background-color: var(--sabs-orange);
+    color: white;
+}
+.modal-header {
+    background-color: var(--sabs-orange);
+    color: white;
+}
+.modal-body {
+    background-color: var(--sabs-gray);
+}
+nav  .paginacion{
+    color: #333;
+}
